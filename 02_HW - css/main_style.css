@@ -1,0 +1,73 @@
+body {
+        color: green;
+        background-color: rgba(0, 51, 204, 0.2);
+}
+
+img {
+    height: 300px;
+    display: block;
+    background-color: white;
+    /* margin-left: auto;
+    margin-right: auto;*/
+    border-style: solid;
+    border-radius: 5px
+
+}
+
+img:hover {
+     background-color: rgba(204, 204, 204, 0.9);
+}
+
+h1 {
+        color: blue;
+}
+
+h3 {
+   font-family: Verdana, Sans-serif, Serif;
+   color: darkblue;
+   padding: 0px;
+   margin: 0px;
+}
+
+ol {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+}
+
+.status {
+        font-size: 20px;
+        font-family: Verdana, Sans-serif, Serif;
+        font-weight: bold;
+}
+
+a:hover {
+    color: green;
+}
+
+button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+}
+
+button:hover {
+  background-color: white;
+  color: #4CAF50; /* Green */
+}
+
+button:active {
+  background-color: rgba(204, 204, 204, 0.9);
+}
+
+#one {
+   margin-left: 200px;
+}
