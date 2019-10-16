@@ -1,0 +1,99 @@
+body{
+    background-color: white;
+    font-family: 'Roboto', 'Lucida Sans',  sans-serif;
+    font-size: 16px;
+}
+
+h2{
+    font-size: 14px;
+    font-weight: inherit;
+}
+
+#obrazec{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid rgba(146, 146, 146, 0.4);
+    border-radius: 10px;
+    padding-top: 48px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 36px;
+}
+
+#notranji_obrazec{
+    /*  width: 368px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* border:1px solid red; */
+}
+
+#logo{
+    text-align: center;
+}
+
+#text1{
+    text-align: center;
+}
+
+#u-ime{
+    height: 40px;
+    width: 97%;
+    border-radius: 5px;
+    border:1px solid rgba(146, 146, 146, 0.4);
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+#forgot-email{
+    padding-top: 9px;
+    padding-bottom: 3px;
+}
+
+.tipka{
+    color: blue;
+    border: none;
+    background-color: white;
+    padding: 0px;
+    font-size: 16px;
+}
+
+#vprasanje{
+    margin-top: 32px;
+    margin-bottom: 8;
+    color: rgba(63, 62, 62, 0.767);
+}
+
+#spodaj{
+    margin-top: 32px;
+    /* margin-left: -8px; */
+    padding-bottom: 36px;
+}
+
+.poravnaj{
+    display: inline-block;
+    /*float: left; */
+}
+
+.poravnaj2{
+    display: inline-block;
+    float: right;
+}
+
+#CA{
+    height: 36px;
+}
+
+#naprej{
+    background-color: blue;
+    border: none;
+    color: white;
+    height: 36px;
+    width: 88px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    
+}
