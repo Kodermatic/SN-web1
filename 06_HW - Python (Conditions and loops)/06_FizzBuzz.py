@@ -8,13 +8,15 @@
 low_no = 1
 high_no = 100
 high_no = int(input(f"Please enter number between {low_no} and {high_no}:  "))
+first_devider = 3
+second_devider = 5
 
 for number in range(low_no, high_no+1):
-  if number % 3 == 0 and number % 5 == 0:
+  if number % first_devider == 0 and number % second_devider == 0:
     print("fizzbuzz")
-  elif number % 3 == 0:
+  elif number % first_devider == 0:
     print("fizz")
-  elif number % 5 ==0:
+  elif number % second_devider == 0:
     print("buzz")
   else:
     print(number)
