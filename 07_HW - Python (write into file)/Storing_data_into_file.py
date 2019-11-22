@@ -26,16 +26,15 @@ while True:
         break
       else:
         print("Entered option is not valid.")
-    else:
-      while True:
-        print_option = input("Do you want to print content of the file? (y/n): ")
-        if print_option in ["y", "yes"]:
-          with open(path + filename, "r") as myfile:  
-            print(myfile.read())
-          break
-        elif print_option in ["n", "no"]:
-          break
-        else:
-          print("Entered option is not valid.")
+    while True:
+      print_option = input("Do you want to print content of the file? (y/n): ")
+      if print_option in ["y", "yes"]:
+        with open(path + filename, "r") as myfile:  
+          print(myfile.read())
+        break
+      elif print_option in ["n", "no"]:
+        break
+      else:
+        print("Entered option is not valid.")
     print("Thank you and goodbye!")
     break
