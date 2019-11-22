@@ -8,10 +8,10 @@
 # If not, the program says goodbye and stops.
 print("Hi, with this program you can convert kilometers into miles.")
 another_conversion = "y"
-while another_conversion in "[y, yes]":
+while another_conversion in ["y", "yes"]:
   number_of_km = float(input("Please input number of kilometers: ").replace(",","."))
   number_of_mi = number_of_km * 0.6213712
   print (f"{number_of_km} km is {number_of_mi} miles! \n \n")
-  another_conversion = input("Do you want another conversion (y/n)").lower()
+  another_conversion = input("Do you want another conversion (y/n): ").lower()
 else:
-  print("Thank you for using our program. Googbye!")
+  print("Thank you for using our program. Googbye!") 
