@@ -99,8 +99,7 @@ def choose_player_name(f_max_length=6):
       break
   return f_player_name
 
-  #### Classes
-
+#### Classes
 class play_score():
   def __init__(self, player_name, guess_attemps, play_level, secret):
     self.player_name = player_name
