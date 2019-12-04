@@ -68,8 +68,7 @@ def play_game():  #Function that launch 1 cycle of number guessing game
       print(f"You have guessed it! Congratulation! It is {my_secret}.\n You did it in {my_attemps} attemp/s!")
       score_list = read_scores(my_path_filename)
       my_play_score = play_score(my_player_name, my_attemps, my_level, my_secret)
-      print(my_play_score.__dict__)
-      score_list.insert(0, my_play_score.__dict__)
+      score_list.insert(0, vars(my_play_score))
       write_scores(my_path_filename, score_list)
       break
     
